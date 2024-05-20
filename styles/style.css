@@ -1,1 +1,157 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 105px;
+  margin: 0 24px;
+  font-size: 18px;
+}
+
+.header__links-list {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: circle;
+  gap: 25px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.header__logo-image {
+  height: 100%;
+}
+
+.cover {
+  background-image: url("../images//cover.jpg");
+  background-size: cover;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cover__title{
+  display: flex;
+  flex-direction: column;
+  padding: 135px 50px 165px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text__center {
+  text-align: center;
+}
+
+.aligned-text__right {
+  text-align: right;
+}
+
+.cover__description {
+  padding-bottom: 51px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 0.6em;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0);    /* Черный цвет с непрозрачностью 0 */
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.lots {
+  margin: 0 24px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-grow: 1;
+  gap: 25px;
+  height: 563px;
+  list-style: none;
+  color: white;
+}
+
+.lots__card-list-item {
+  width: 334px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__title {
+  margin: 51px 40px 0;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {
+  margin: 0 40px 48px;
+  font-size: 20px;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.about__logo {
+  height: 240px;
+  width: 240px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
+}
+
