@@ -76,7 +76,7 @@
   z-index: -1;
 }
 
-.cover__title{
+.cover__title {
   display: flex;
   flex-direction: column;
   padding: 165px 50px 135px;
